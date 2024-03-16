@@ -1,0 +1,18 @@
+:root{
+  --primary-color: #FF914D;
+  --secondary-color: #A2A2A2;
+  --background-color: #F3F3F3;
+}
+
+@font-face {
+  font-family: 'Holiday';
+  src: url('/font/HolidayFree.otf') format('opentype');
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background-color);
+}
