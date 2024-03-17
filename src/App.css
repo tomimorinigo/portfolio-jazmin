@@ -6,7 +6,13 @@
 
 @font-face {
   font-family: 'Holiday';
-  src: url('/font/HolidayFree.otf') format('opentype');
+  src: url('/font/BrownSugar.otf') format('opentype');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body{

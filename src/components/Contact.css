@@ -1,0 +1,81 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 80vh;
+    margin: 50px auto;
+}
+
+.contact-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-title h3{
+    font-size: 2rem;
+    font-family: 'Holiday', sans-serif;
+    color: var(--primary-color);
+}
+
+.contact-title h4{
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.contact-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.contact__location h4, .contact__mail h4, .contact__social h4{
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    font-weight: 400;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-family: 'Holiday', sans-serif;
+}
+
+.contact__location p{
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+.contact__mail a{
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contact__mail a:hover{
+    color: var(--primary-color);
+}
+
+.contact__social ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.contact__social ul li a{
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contact__social ul li a:hover{
+    color: var(--primary-color);
+}
